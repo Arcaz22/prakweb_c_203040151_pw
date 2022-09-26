@@ -33,7 +33,7 @@ $books = query("SELECT * FROM buku LIMIT $awalData, $jumlahDataPerHalaman");
       <div class="text-center"> 
         <a href="src/helper/tambah.php">
           <button class="bg-gray-200 text-gray-600 hover:bg-blue-300 sm:text-3xl font-bold inline rounded-md px-10 py-1">
-          Tambah
+          Tambah Buku
           </button>
         </a>
       </div>
