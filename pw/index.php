@@ -96,7 +96,7 @@ $books = query("SELECT * FROM buku LIMIT $awalData, $jumlahDataPerHalaman");
     <div class="flex items-center space-x-1">
     <?php if ($halamanAktif > 1) : ?>
       <a href="?halaman=<?= $halamanAktif - 1; ?>" class="flex items-center px-4 py-2 text-gray-500 bg-gray-300 rounded-md hover:bg-blue-400 hover:text-white">
-        Previous
+        Prev
       </a>
     <?php endif; ?>
     <?php for ($i = 1; $i <= $jumlahHalaman; $i++) : ?>
