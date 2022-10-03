@@ -28,10 +28,15 @@ if (isset($_POST['ubah'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ubah</title>
   <link rel="stylesheet" href="../../public/css/style.css">
+  <style>
+    body {
+      background-color: #0a192f;
+    }
+  </style>
 </head>
 <body>
   
-<div class='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
+<div class='w-full h-screen flex justify-center items-center p-4'>
     <form action="" method='POST' enctype="multipart/form-data" class='flex flex-col max-w-[600px] w-full'>
     <input type="hidden" name="id" value="<?= $book['id']; ?>">
       <div class='pb-8'>

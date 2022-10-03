@@ -20,11 +20,16 @@ $books = query("SELECT * FROM buku LIMIT $awalData, $jumlahDataPerHalaman");
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daftar Buku</title>
   <link rel="stylesheet" href="./public/css/style.css" />
+  <style>
+    body {
+      background-color: #0a192f;
+    }
+  </style>
 </head>
 
 <body>
                                                                                                       
-<div class="w-full h-screen bg-[#0a192f] text-gray-300">
+<div class="w-full h-screen text-gray-300">
   <div class="flex flex-col justify-center items-center w-full h-full">
     <div class="max-w-[1000px] w-full grid grid-cols-2 gap-4">
       <div class="sm:text-4xl font-bold inline border-b-4 border-red-600">
